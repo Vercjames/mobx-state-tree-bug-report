@@ -24,10 +24,10 @@ export const AppIndexScreen = observer(() => {
   const TaskStore: ITaskStore = MSTContext().TaskStore
 
   // Enable This code
-  // React.useEffect(() => {
-  //   // Presume this is the response from an API.
-  //   TaskStore.TaskCollection[0].setDescription(null)
-  // }, [])
+  React.useEffect(() => {
+    // Presume this is the response from an API.
+    TaskStore.TaskCollection[0].setDescription(null)
+  }, [])
 
   return (
     <div className="AppIndexScreen">

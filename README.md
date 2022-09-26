@@ -8,7 +8,18 @@ $ yarn install
 $ yarn run start 
 ```
 
-## Bug Report || Problem Source
+## Bug Report || The Console
+This project is attempting to highlight the following bug: 
+```
+value `<TYPE A>` is not assignable to type: `<TYPE B>` (Value is not a <TYPE B>).
+```
+More specifically, this project we'll be showcasing
+```
+value `null` is not assignable to type: `string` (Value is not a string).
+```
+
+
+## Bug Report || Problem Shown Locally
 Inside [client-apps/routing-app/app-screen-index/index-screen.tsx](https://github.com/Vercjames/mobx-state-tree-bug-report/blob/master/client-apps/routing-app/app-screen-index/index-screen.tsx) 
 you can enable this code which is currently removed
 ```
