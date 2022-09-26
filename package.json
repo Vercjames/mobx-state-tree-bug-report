@@ -4,9 +4,8 @@
   "license": "MIT",
   "author": "https://github.com/vercjames",
   "description": "Mobx State Tree - Bug Report",
-  "repository": "https://github.com/Vercjames/Vite-Template",
-  "homepage": "https://github.com/Vercjames/Vite-Template",
-  "bugs": "https://github.com/Vercjames/Vite-Template/issues",
+  "repository": "https://github.com/Vercjames/mobx-state-tree-bug-report",
+  "homepage": "https://github.com/Vercjames/mobx-state-tree-bug-report",
   "main": "index.html",
   "scripts": {
     "start": "yarn env && vite --host --port 8000",

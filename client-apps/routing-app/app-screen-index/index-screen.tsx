@@ -1,5 +1,5 @@
 import React from "react"
-import { Box, Typography, Card, Grid, Icon, Button } from "@mui/material"
+import { Box, Typography, Card, Grid, Icon, Button, Avatar } from "@mui/material"
 
 
 // Application Screen || Access State
@@ -24,10 +24,10 @@ export const AppIndexScreen = observer(() => {
   const TaskStore: ITaskStore = MSTContext().TaskStore
 
   // Enable This code
-  React.useEffect(() => {
-    // Presume this is the response from an API.
-    TaskStore.TaskCollection[0].setDescription(null)
-  }, [])
+  // React.useEffect(() => {
+  //   // Presume this is the response from an API.
+  //   TaskStore.TaskCollection[0].setDescription(null)
+  // }, [])
 
   return (
     <div className="AppIndexScreen">
@@ -35,6 +35,7 @@ export const AppIndexScreen = observer(() => {
         <Typography variant="h6">
           Dashboard Screen
         </Typography>
+        {/*<Avatar src={TaskStore.TaskCollection[0].description}></Avatar>*/}
         <Box>
           <Button variant="contained" onClick={() => TaskStore.addTask(`task #${TaskStore.TaskCollection.length + 1}`, `description for task: ${TaskStore.TaskCollection.length + 1}`)} disableElevation style={{ minWidth: 150, maxWidth: 150 }}>
             <Icon className="material-icons-outlined" style={{ fontSize: 16, marginRight: 10 }}>add</Icon>

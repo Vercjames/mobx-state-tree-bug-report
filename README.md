@@ -32,5 +32,5 @@ you can enable this code which is currently removed
 
 
 ## Bug Report || Video Demo
-To view my video report please check out it out [here](https://youtube.com/)
+To view my video report please check out it out [here](https://youtu.be/A0uR-3xHl2k)
 

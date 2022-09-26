@@ -7,7 +7,9 @@ import { types, Instance, SnapshotIn, SnapshotOut } from "mobx-state-tree"
 export const TaskModel = types.model({
   id: types.identifier,
   title: types.string,
-  description: types.string,
+  description: types.string
+  // The hacky code
+  // description: types.optional(types.maybeNull(types.string), ""),
 }).actions((self: any) => ({
   setTitle(title: string) {
     self.title = title

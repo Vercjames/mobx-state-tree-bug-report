@@ -2,16 +2,7 @@ import React, { ReactElement } from "react"
 import { useNavigate } from "react-router-dom"
 import { useTheme, Box, Drawer, Toolbar, Divider, List, ListItem, ListItemButton, ListItemText, ListItemIcon } from "@mui/material"
 import DashboardIcon from "@mui/icons-material/Dashboard"
-import SettingsIcon from "@mui/icons-material/Settings"
-import AccountBoxIcon from "@mui/icons-material/AccountBox"
 import GitHubIcon from "@mui/icons-material/GitHub"
-
-
-// Application Screen || App State
-// =====================================================================================================================
-// =====================================================================================================================
-import { MSTContext } from "@MSTContext"
-import { IAuthStore } from "@MSTInterfaces"
 
 
 // Application Screen || Define Imports
@@ -76,7 +67,7 @@ export const AppNavDrawer = ({ drawerWidth, isMobile }: { drawerWidth: number, i
         <List>
           <ListItem disablePadding>
             {/* The minHeight property is to prevent shrinking since the ListItemText is larger than the ListItemIcon */}
-            <ListItemButton onClick={() => window.open("https://github.com/Vercjames", "_blank")} sx={{ minHeight: 48 }}>
+            <ListItemButton onClick={() => window.open("https://github.com/Vercjames/mobx-state-tree-bug-report", "_blank")} sx={{ minHeight: 48 }}>
               <ListItemIcon sx={{ minWidth: 0, mr: !isMobile ? 3 : "auto" }}>
                 <GitHubIcon />
               </ListItemIcon>
