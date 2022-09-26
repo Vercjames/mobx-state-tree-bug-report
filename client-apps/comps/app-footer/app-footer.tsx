@@ -17,7 +17,7 @@ export const AppFooter = ({ drawerWidth }: { drawerWidth: number }) => {
     <Box component="footer" sx={{ position: "fixed", bottom: 0, width: `calc(100% - ${drawerWidth}px)`, backgroundColor: "white" }}>
       <Divider />
       <Typography sx={{ minHeight: 64, display: "flex", justifyContent: "center", alignItems: "center" }}>
-        © {year} Verc James. All rights reserved.
+        © {year} Verc James. MIT License.
       </Typography>
     </Box>
   )

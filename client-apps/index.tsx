@@ -8,7 +8,6 @@ import { ThemeProvider } from "@mui/material/styles"
 // =====================================================================================================================
 // =====================================================================================================================
 import { MSTRoot } from "@MSTRoot"
-import { IRootStore } from "@MSTInterfaces"
 import { MSTProvider } from "@MSTContext"
 
 
@@ -24,7 +23,7 @@ import "./globals/global-styles/index.scss"
 // =====================================================================================================================
 // =====================================================================================================================
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
-  <MSTProvider value={MSTRoot: IRootStore}>
+  <MSTProvider value={MSTRoot}>
     <ThemeProvider theme={MUITheme}>
       <BrowserRouter>
         <NavigationRoot />

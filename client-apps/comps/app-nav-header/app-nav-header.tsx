@@ -75,7 +75,7 @@ export const AppNavHeader = ({ drawerWidth, isMobile, setMobile }: { drawerWidth
             }}
           >
             {popperItems.map((item: {name: string, route: string}) => (
-              <MenuItem key={item.name} onClick={() => {  window.open("https://github.com/Vercjames", "_blank"); handleClose() }}>{item.name}</MenuItem>
+              <MenuItem key={item.name} onClick={() => { window.open("https://github.com/Vercjames", "_blank"); handleClose() }}>{item.name}</MenuItem>
               // <MenuItem key={item.name} onClick={() => { navigate(item.route); handleClose() }}>{item.name}</MenuItem>
             ))}
           </Menu>

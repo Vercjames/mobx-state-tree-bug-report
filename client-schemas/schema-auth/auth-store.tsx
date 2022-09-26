@@ -1,5 +1,3 @@
-import md5 from "md5"
-import axios from "axios"
 import { types, Instance, SnapshotIn, SnapshotOut } from "mobx-state-tree"
 
 

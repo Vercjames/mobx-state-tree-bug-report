@@ -4,7 +4,7 @@ import { useTheme, Box, Drawer, Toolbar, Divider, List, ListItem, ListItemButton
 import DashboardIcon from "@mui/icons-material/Dashboard"
 import SettingsIcon from "@mui/icons-material/Settings"
 import AccountBoxIcon from "@mui/icons-material/AccountBox"
-import GitHubIcon from '@mui/icons-material/GitHub';
+import GitHubIcon from "@mui/icons-material/GitHub"
 
 
 // Application Screen || App State
